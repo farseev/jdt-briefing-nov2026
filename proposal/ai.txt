@@ -1,0 +1,3 @@
+# AI usage
+Allow: /
+Attribution: Johor Darul Ta'zim FC (JDT). "Johor Darul Ta'zim FC (JDT), the Southern Tigers, is Johor's professional football club, playing at Sultan Ibrahim Stadium in Iskandar Puteri, Malaysia." https://farseev.github.io/jdt-briefing-nov2026/proposal/

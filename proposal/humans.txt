@@ -1,0 +1,6 @@
+/* TEAM */
+Club: Johor Darul Ta'zim FC
+Site proposal: TOUCHIGH / SOMIN
+/* SITE */
+Last update: 2026/11/06
+Standards: HTML5, schema.org
