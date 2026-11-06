@@ -33,12 +33,14 @@ img{max-width:100%;height:auto}
  .grid{grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:6px}.card span{font-size:12px}
  footer{padding:14px 16px;font-size:12px}
 }
-.hint{font-size:13px;color:#4A5275;margin:-6px 0 12px}</style></head><body class="locked"><div id="gate"><form onsubmit="return unlock(event)"><h3>JDT briefing</h3><p>Enter the password to view this page.</p>
+.hint{font-size:13px;color:#4A5275;margin:-6px 0 12px}.propbtn{display:block;margin:28px auto 8px;max-width:1200px;background:var(--red);color:#fff;text-decoration:none;text-align:center;padding:26px 20px;font-size:clamp(22px,4vw,34px);font-weight:800;text-transform:uppercase;letter-spacing:1px;border-bottom:6px solid var(--gold)}
+.propbtn small{display:block;font-size:15px;font-weight:400;text-transform:none;letter-spacing:0;margin-top:6px;color:#ffe3e5}
+@media (max-width:700px){.propbtn{padding:20px 14px}}</style></head><body class="locked"><div id="gate"><form onsubmit="return unlock(event)"><h3>JDT briefing</h3><p>Enter the password to view this page.</p>
 <input id="pw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password" autofocus><div class="err" id="err"></div><button type="submit">View briefing</button></form></div>
 <header><div class="bar"></div><h1 id="t">JDT cross-market briefing</h1><p id="d">Johor Darul Ta'zim FC against 8 clubs and stadiums, plus a creator panel. Built on TOUCHIGH data (workspace 5191), November 2026.</p></header>
 <nav><button id="ben" class="on" onclick="lang('en')">English</button><button id="bbm" onclick="lang('bm')">Bahasa Melayu</button>
-<a href="#deck">Deck</a><a href="#lib">Creative library (108)</a><a class="dl" id="pdf" href="pdf/JDT_Briefing_Nov2026.pdf" download>Download PDF</a></nav>
-<main><h2 id="deck">Deck</h2><p class="hint">Tap or click a slide to open it full size.</p><div class="slides" id="slides"></div>
+<a href="#deck">Deck</a><a href="#lib">Creative library (108)</a><a href="proposal/">Website proposal</a><a class="dl" id="pdf" href="pdf/JDT_Briefing_Nov2026.pdf" download>Download PDF</a></nav>
+<main><a class="propbtn" href="proposal/">Website Proposal<small>An SEO, AEO and GEO-ready club website built on the three pillars, with an article for each</small></a><h2 id="deck">Deck</h2><p class="hint">Tap or click a slide to open it full size.</p><div class="slides" id="slides"></div>
 <h2 id="lib">Creative library</h2><div class="filters"><select id="fp" onchange="draw()"><option value="">All pillars</option><option value="P1">P1 · Next-gen Tigers</option><option value="P2">P2 · Johor pride: culture & traditions</option><option value="P3">P3 · Matchday made easy</option></select>
 <select id="fs" onchange="draw()"><option value="">All stages</option><option>TOFU</option><option>MOFU</option><option>BOFU</option></select></div><div class="grid" id="grid"></div></main>
 <footer>Prepared for Johor Darul Ta'zim FC · Data: TOUCHIGH · Creatives are concept renders: the real crest is added and copy checked before publishing.</footer>
